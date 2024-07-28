@@ -1,0 +1,70 @@
+.navBar{
+  width: 100vw;
+  background-color: rgb(156, 91, 217);
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+
+nav ul{
+  padding:2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0,0,0,.8);
+}
+
+nav ul li:active {
+  background-color: blue;
+}
+
+.login-form-container{
+  display:flex;
+  justify-content: center;
+  flex-direction: center;
+  left:0;
+  right:0;
+  margin:auto;
+  margin-top: 15%;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.login-form{
+  width: 400px;
+  border-color: rgb(53, 13, 90);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(227, 173, 227);
+  border-style: solid;
+}
+
+.login-form-content{
+  align-items: center;
+  padding-left: 10%;
+  padding-right:10%;
+}
+
+.login-form-title{
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 28px;
+  color: rgb(64, 15, 82);
+  font-weight: 800;
+}
+
+label{
+  font-size: 14px;
+  font-weight: 600;
+}
+
